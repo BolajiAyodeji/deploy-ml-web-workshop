@@ -75,7 +75,7 @@ But if you prefer local (I strongly advise against this; at least for this works
 
 > **Note**
 >
-> [Jupyter Notebooks](https://jupyter.org?utm_source=ba-deploy-ml-web-workshop) allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more.
+> [Jupyter Notebooks](https://jupyter.org?utm_source=ba-deploy-ml-web-workshop) allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX, and more.
 
 ---
 
