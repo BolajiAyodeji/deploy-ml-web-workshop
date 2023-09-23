@@ -1,12 +1,19 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} {% block title %}Result - {% endblock %} {% block
+content %}
+<!--Form starts here-->
+<!--Set the id to "prediction-form"-->
+<!--Set the action to "{{ url_for('predict') }}"-->
+<!--This will use the /predict API route we have created-->
+<!--Set the form method to POST-->
 <form id="prediction-form" action="{{ url_for('predict') }}" method="POST">
   <div class="mb-4">
     <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
       Fullname:
     </label>
+    <!--Fullname input field with "name" name attribute-->
     <input
-      id="name"
       name="name"
+      id="name"
       type="text"
       class="block appearance-none w-full bg-white border border-gray-400 px-4 py-2 pr-8 shadow"
       required
@@ -16,6 +23,8 @@
     <label class="block text-gray-700 text-sm font-bold mb-2" for="country">
       Country:
     </label>
+    <!--Country select field with "country" name attribute-->
+    <!--We will populate the <option> element using JavaScript in main.js-->
     <select
       id="country"
       name="country"
@@ -27,6 +36,7 @@
     <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
       Message:
     </label>
+    <!--Message textarea field with "message" name attribute-->
     <textarea
       id="message"
       name="message"
@@ -36,6 +46,7 @@
     ></textarea>
   </div>
 
+  <!--Submit button-->
   <input
     type="submit"
     value="Submit"

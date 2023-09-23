@@ -5,12 +5,12 @@ import pickle
 # with the name of the application’s modules
 app = Flask(__name__, template_folder='templates')
 
-# Render root page
+# Create the / API route and render the root HTML page
 @app.route('/', methods=['GET'])
 def main():
     return(render_template('main.html'))
 
-# Create /predict API route
+# Create the /predict API route
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     # Use pickle to load in vectorizer.
@@ -51,7 +51,12 @@ def predict():
     else:
         return(redirect(url_for('main')))
 
-    return(render_template('result.html', name=name, country=country, result=result))
+    return(render_template(
+        'result.html', 
+        name=name, 
+        country=country, 
+        result=result
+        ))
 
 @app.errorhandler(404)
 def notFound(error):

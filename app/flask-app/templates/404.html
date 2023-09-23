@@ -1,26 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404 - MBPTI Personality Test Checker</title>
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="https://bolajiayodeji.com/favicon.png"
-    />
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="bg-gray-100 font-sans">
-    <div class="flex flex-col items-center justify-center h-screen">
-      <h1 class="text-6xl font-bold text-gray-900">404</h1>
-      <p class="mt-2 text-2xl font-medium text-gray-600">
-        Oops! Page not found.
-      </p>
-    </div>
-  </body>
-</html>
+{% extends 'base.html' %} {% block title %}404 - {% endblock %} {% block content
+%}
+<div class="text-center my-24">
+  <h1 class="text-6xl font-bold text-gray-900">404</h1>
+  <p class="mt-2 text-2xl font-medium text-gray-600">Oops! Page not found.</p>
+  <div class="mt-24">
+    <a href="/" class="bg-black text-white py-2 px-4"> < Go Home </a>
+  </div>
+</div>
+{% endblock %}

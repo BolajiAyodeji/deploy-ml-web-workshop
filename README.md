@@ -16,7 +16,10 @@ In this workshop, we will build the following:
 - A web application and API that consumes the model/API using HTML, CSS, JavaScript, Nextjs, and Flask.
 - An AI web application using Nextjs and OpenAPI.
 
-[Demo GIF]
+![](./assets/model-notebook.png)
+![](./assets/postman-test.png)
+![](./assets/app-home.png)
+![](./assets/app-result.png)
 
 ---
 
@@ -52,7 +55,7 @@ At the end of this workshop; you should be able to:
 
 This workshop has been presented at the following events:
 
-- [React Alicante 2023](https://reactalicante.es/) in Alicante, Spain 🇪🇸.
+- [React Alicante 2023](https://reactalicante.es/#schedule?utm_source=ba-deploy-ml-web-workshop) in Alicante, Spain 🇪🇸.
 - Your next event or conference? You can invite me by [sending a message](https://twitter.com/iambolajiayo).
 
 ## 🛠 Prerequisites and Installation Guide
@@ -229,11 +232,11 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 1. [Introduction to Machine Learning](./lessons/01.md)
 2. [Building a ML Model with Python](./lessons/02.md)
 3. [Building an API for the ML Model](./lessons/03.md)
-4. [Building a Web Application for the API]()
-4. [Overview of Alternative Frameworks]()
-5. [Building a Nextjs Web Application for the ML Model]()
-6. [Deploying the API and Web Application to the Cloud]()
-7. Bonus: [Building Web AI Applications with Pre-trained Models (LLMs) and Vercel AI SDK]()
+4. [Building a Web Application for the API](./lessons/04.md)
+5. [Overview of Alternative Frameworks]()
+6. [Building a Nextjs Web Application for the ML Model]()
+7. [Deploying the API and Web Application to the Cloud]()
+8. Bonus: [Building Web AI Applications with Pre-trained Models (LLMs) and Vercel AI SDK]()
 
 ## 🚀 What's Next?
 
@@ -248,8 +251,10 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 - [How to Deploy a Machine Learning Model to the Web](https://blog.bolajiayodeji.com/how-to-deploy-a-machine-learning-model-to-the-web?utm_source=ba-deploy-ml-web-workshop)
 - [Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?utm_source=ba-deploy-ml-web-workshop)
 - [Google's Machine Learning Glossary](https://developers.google.com/machine-learning/glossary?utm_source=ba-deploy-ml-web-workshop)
+- [Reading and Writing Files in Python](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files?utm_source=ba-deploy-ml-web-workshop)
 - [Flask Quickstart Guide](https://flask.palletsprojects.com/en/2.3.x/quickstart?utm_source=ba-deploy-ml-web-workshop)
 - [Handling Flask Application Errors](https://flask.palletsprojects.com/en/2.3.x/errorhandling?utm_source=ba-deploy-ml-web-workshop)
+- [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes?utm_source=ba-deploy-ml-web-workshop)
 
 ## 👩🏽‍💻 Contributors Guide
 

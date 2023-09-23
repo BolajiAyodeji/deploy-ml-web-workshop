@@ -1,54 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Result - MBPTI Personality Test Checker</title>
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="https://bolajiayodeji.com/favicon.png"
-    />
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body class="font-sans">
-    <div class="flex items-center justify-center h-screen">
-      <div
-        class="p-12 max-w-xl bg-gray-200 rounded-lg overflow-hidden shadow-lg"
-      >
-        <div class="font-bold text-xl mb-2 text-center">
-          MBPTI Personality Test Checker
-        </div>
-        <hr class="border-1 border-black mb-8" />
-
-        <div class="result mt-12">
-          <p id="name" class="text-gray-700 font-bold">
-            Fullname: <span class="font-medium">{{ name }}</span>
-          </p>
-          <br />
-          <p id="country" class="text-gray-700 font-bold">
-            Nationality: <span class="font-medium">{{ country }}</span>
-          </p>
-          <br />
-          <p class="text-gray-700 font-bold">
-            Prediction:
-            <span class="text-blue-700 font-medium">{{ result }}</span>
-          </p>
-        </div>
-        <div class="my-12">
-          <a href="/" class="bg-black text-white py-2 px-4"> < Go Back </a>
-        </div>
-      </div>
-    </div>
-
-    <script
-      src="{{ url_for('static',filename='main.js') }}"
-      type="text/javascript"
-    ></script>
-  </body>
-</html>
+{% extends 'base.html' %} {% block title %}Result - {% endblock %} {% block
+content %}
+<div class="result mt-12">
+  <p id="name" class="text-gray-700 font-bold">
+    Fullname: <span class="font-medium">{{ name }}</span>
+  </p>
+  <br />
+  <p id="country" class="text-gray-700 font-bold">
+    Nationality: <span class="font-medium">{{ country }}</span>
+  </p>
+  <br />
+  <p class="text-gray-700 font-bold">
+    Prediction:
+    <span class="text-blue-700 font-medium">{{ result }}</span>
+  </p>
+</div>
+<div class="my-12">
+  <a href="/" class="bg-black text-white py-2 px-4"> < Go Back </a>
+</div>
+{% endblock %}

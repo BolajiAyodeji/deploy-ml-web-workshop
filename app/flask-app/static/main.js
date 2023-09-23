@@ -1,9 +1,9 @@
-// Prevent the HTML form from storing state from the previous sessions.
+// Prevent the HTML form from storing state from the previous sessions
 if (window.history.replaceState) {
   window.history.replaceState(null, null, window.location.href);
 }
 
-// Append <option> with countries to the select element.
+// Append <option> with countries to the select element
 const countries = "../static/countries.json";
 const select = document.getElementById("country");
 
