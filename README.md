@@ -6,6 +6,18 @@ In this workshop, Bolaji will introduce you to machine learning model deployment
 
 ---
 
+## Table of Contents
+
+- [🎧 Overview](#-overview)
+- [🛠 Prerequisites and Installation Guide](#-prerequisites-and-installation-guide)
+- [👨🏾‍🏫 Workshop Lessons](#-workshop-lessons)
+- [🚀 What's Next?](#-whats-next)
+- [📑 Further Resources](#-further-resources)
+- [👩🏽‍💻 Contributors Guide](#-contributors-guide)
+- [⚖️ License](#-license)
+
+---
+
 This repository contains the workshop materials, lesson notes, machine learning model notebooks, serilized models, backend API/web application code, and links to further resources. You can follow the workshop lessons and build the project yourself or use the materials to learn at your own pace.
 
 In this workshop, we will build the following:
@@ -20,18 +32,6 @@ In this workshop, we will build the following:
 ![](./assets/postman-test.png)
 ![](./assets/app-home.png)
 ![](./assets/app-result.png)
-
----
-
-## Table of Contents
-
-- [🎧 Overview](#-overview)
-- [🛠 Prerequisites and Installation Guide](#-prerequisites-and-installation-guide)
-- [👨🏾‍🏫 Workshop Lessons](#-workshop-lessons)
-- [🚀 What's Next?](#-whats-next)
-- [📑 Further Resources](#-further-resources)
-- [👩🏽‍💻 Contributors Guide](#-contributors-guide)
-- [⚖️ License](#-license)
 
 ---
 
