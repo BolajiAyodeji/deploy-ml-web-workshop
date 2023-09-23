@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MBPTI Personality Test Checker API</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://bolajiayodeji.com/favicon.png"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-mono">
+    <div class="flex items-center justify-center h-screen">
+      <div
+        class="p-12 max-w-xl bg-gray-200 rounded-lg overflow-hidden shadow-lg"
+      >
+        <div class="font-bold text-xl mb-2 text-center">
+          MBPTI Personality Test Checker API
+        </div>
+        <hr class="border-1 border-black mb-8" />
+
+          <div class="mt-12 text-center">
+            <p>
+            Use the /predict API route to make a GET request and pass in the data with a ?message=
+            parmeter like so:
+          </p>
+          <br /><br />
+          <a
+            class="text-gray-700 text-center"
+            href="http://127.0.0.1:5000/predict?message=The last time you considered giving up on your dreams but didn't… what kept you going?"
+            >http://127.0.0.1:5000/predict?message=The last time you considered
+            giving up on your dreams but didn't… what kept you going?</a
+          >
+        </div>
+    </div>
+  </body>
+</html>

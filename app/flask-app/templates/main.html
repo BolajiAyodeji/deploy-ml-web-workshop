@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MBPTI Personality Test Checker</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://bolajiayodeji.com/favicon.png"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-sans">
+    <div class="flex items-center justify-center h-screen">
+      <div
+        class="p-12 max-w-xl bg-gray-200 rounded-lg overflow-hidden shadow-lg"
+      >
+        <div class="font-bold text-xl mb-2 text-center divide-x">
+          MBPTI Personality Test Checker
+        </div>
+        <hr class="border-1 border-black mb-8" />
+
+        <form
+          id="prediction-form"
+          action="{{ url_for('predict') }}"
+          method="POST"
+        >
+          <div class="mb-4">
+            <label
+              class="block text-gray-700 text-sm font-bold mb-2"
+              for="name"
+            >
+              Fullname:
+            </label>
+            <input
+              name="name"
+              id="name"
+              type="text"
+              class="block appearance-none w-full bg-white border border-gray-400 px-4 py-2 pr-8 shadow"
+              required
+            />
+          </div>
+          <div class="mb-4">
+            <label
+              class="block text-gray-700 text-sm font-bold mb-2"
+              for="country"
+            >
+              Country:
+            </label>
+            <select
+              id="country"
+              name="country"
+              class="block appearance-none w-full bg-white border border-gray-400 px-4 py-2 pr-8 shadow"
+              required
+            ></select>
+          </div>
+          <div class="mb-4">
+            <label
+              class="block text-gray-700 text-sm font-bold mb-2"
+              for="message"
+            >
+              Message:
+            </label>
+            <textarea
+              name="message"
+              id="message"
+              class="shadow appearance-none border w-full bg-white border border-gray-400 py-2 px-3 text-gray-700"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+
+          <input
+            type="submit"
+            value="Submit"
+            class="cursor-pointer w-full bg-black text-white font-bold mt-8 p-4 focus:outline-none focus:shadow-outline"
+          />
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="{{ url_for('static',filename='main.js') }}"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
