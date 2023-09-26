@@ -234,9 +234,9 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 3. [Building an API for the ML Model](./lessons/03.md)
 4. [Building a Web Application for the API](./lessons/04.md)
 5. [Overview of Alternative Frameworks](./lessons/05.md)
-6. [Building a Nextjs Web Application for the ML Model]()
+6. [Building a Nextjs Web Application for the ML Model](./lessons/06.md)
 7. [Deploying the API and Web Application to the Cloud]()
-8. Bonus: [Building Web AI Applications with Pre-trained Models (LLMs) and Vercel AI SDK]()
+8. Bonus: Building Web AI Applications with Pre-trained Models (LLMs) and Vercel AI SDK (Coming soon!)
 
 ## 🚀 What's Next?
 
@@ -256,7 +256,7 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 - [Flask Quickstart Guide](https://flask.palletsprojects.com/en/2.3.x/quickstart?utm_source=ba-deploy-ml-web-workshop)
 - [Handling Flask Application Errors](https://flask.palletsprojects.com/en/2.3.x/errorhandling?utm_source=ba-deploy-ml-web-workshop)
 - [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes?utm_source=ba-deploy-ml-web-workshop)
--
+- [Nextjs Forms and Mutations](https://nextjs.org/docs/pages/building-your-application/data-fetching/forms-and-mutations?utm_source=ba-deploy-ml-web-workshop)
 
 ## 👩🏽‍💻 Contributors Guide
 
