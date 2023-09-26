@@ -170,7 +170,7 @@ We will install the following packages:
 Install all of them using the command below:
 
 ```bash
-pip3 install python-dotenv scikit-learn flask"
+pip3 install python-dotenv scikit-learn flask
 ```
 
 Once installed successfully, confirm the version using the command:
