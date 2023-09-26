@@ -8,13 +8,14 @@ In this workshop, Bolaji will introduce you to machine learning model deployment
 
 ## Table of Contents
 
+- [👨🏾‍🏫 About Me](#-about-me)
 - [🎧 Overview](#-overview)
 - [🛠 Prerequisites and Installation Guide](#-prerequisites-and-installation-guide)
-- [👨🏾‍🏫 Workshop Lessons](#-workshop-lessons)
+- [📚 Workshop Lessons](#-workshop-lessons)
 - [🚀 What's Next?](#-whats-next)
 - [📑 Further Resources](#-further-resources)
 - [👩🏽‍💻 Contributors Guide](#-contributors-guide)
-- [⚖️ License](#-license)
+- [⚖️ License](#️-license)
 
 ---
 
@@ -35,9 +36,13 @@ In this workshop, we will build the following:
 
 ---
 
+### 👨🏾‍🏫 About Me
+
+I'm a software engineer, technical writer, and technical content creator. I'm passionate about building developer communities, open-source, and sharing knowledge. I'm currently a Developer Advocate at [Vercel](https://vercel.com?utm_source=ba-deploy-ml-web-workshop) and a Google Developer Expert (GDE) in Web Technologies. I'm also a member of the [Next.js](https://nextjs.org?utm_source=ba-deploy-ml-web-workshop) and [Nuxt.js](https://nuxtjs.org?utm_source=ba-deploy-ml-web-workshop) communities.
+
 ## 🎧 Overview
 
-Workshop duration: ~three (3) hours.
+**Workshop duration**: ~three (3) hours.
 
 At the end of this workshop; you should be able to:
 
@@ -161,12 +166,11 @@ We will install the following packages:
 - [Python Dotenv](https://pypi.org/project/python-dotenv?utm_source=ba-deploy-ml-web-workshop): a package that reads key-value pairs from a `.env` file and can set them as environment variables.
 - [Scikit-Learn](https://scikit-learn.org/stable?utm_source=ba-deploy-ml-web-workshop): a free software machine learning library for the Python programming language, including various classification, regression, and clustering algorithms.
 - [Flask](https://github.com/pallets/flask?utm_source=ba-deploy-ml-web-workshop): a lightweight Python micro framework for building web applications.
-- [FastAPI](https://github.com/tiangolo/fastapi?utm_source=ba-deploy-ml-web-workshop): a modern and fast web framework for building APIs with Python 3.7+ (with the required [Uvicorn](https://uvicorn.org?utm_source=ba-deploy-ml-web-workshop) ASGI server).
 
 Install all of them using the command below:
 
 ```bash
-pip3 install python-dotenv scikit-learn flask fastapi "uvicorn[standard]"
+pip3 install python-dotenv scikit-learn flask"
 ```
 
 Once installed successfully, confirm the version using the command:
@@ -177,10 +181,6 @@ pip3 show python-dotenv
 pip3 show scikit-learn
 
 pip3 show flask
-
-pip3 show fastapi
-
-uvicorn --version
 ```
 
 </details>
@@ -227,13 +227,13 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 
 </details>
 
-## 👨🏾‍🏫 Workshop Lessons
+## 📚 Workshop Lessons
 
 1. [Introduction to Machine Learning](./lessons/01.md)
 2. [Building a ML Model with Python](./lessons/02.md)
 3. [Building an API for the ML Model](./lessons/03.md)
 4. [Building a Web Application for the API](./lessons/04.md)
-5. [Overview of Alternative Frameworks]()
+5. [Overview of Alternative Frameworks](./lessons/05.md)
 6. [Building a Nextjs Web Application for the ML Model]()
 7. [Deploying the API and Web Application to the Cloud]()
 8. Bonus: [Building Web AI Applications with Pre-trained Models (LLMs) and Vercel AI SDK]()
@@ -247,7 +247,8 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 
 ## 📑 Further Resources
 
-- [Lorem]()
+- [My Weekly Newsletter](https://bawd.bolajiayodeji.com?utm_source=ba-deploy-ml-web-workshop)
+- [Myers–Briggs Type Indicator](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator?utm_source=ba-deploy-ml-web-workshop)
 - [How to Deploy a Machine Learning Model to the Web](https://blog.bolajiayodeji.com/how-to-deploy-a-machine-learning-model-to-the-web?utm_source=ba-deploy-ml-web-workshop)
 - [Google's Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?utm_source=ba-deploy-ml-web-workshop)
 - [Google's Machine Learning Glossary](https://developers.google.com/machine-learning/glossary?utm_source=ba-deploy-ml-web-workshop)
@@ -255,6 +256,7 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 - [Flask Quickstart Guide](https://flask.palletsprojects.com/en/2.3.x/quickstart?utm_source=ba-deploy-ml-web-workshop)
 - [Handling Flask Application Errors](https://flask.palletsprojects.com/en/2.3.x/errorhandling?utm_source=ba-deploy-ml-web-workshop)
 - [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes?utm_source=ba-deploy-ml-web-workshop)
+-
 
 ## 👩🏽‍💻 Contributors Guide
 
@@ -266,12 +268,18 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 git clone https://github.com/<your username>/deploy-ml-web-workshop.git && cd deploy-ml-web-workshop
 ```
 
-3. If you're adding your project to the [Student Projects](#student-projects) section, add the new project to the list in the `README.md` file following the same format (name and link).
+3. Make your changes and create a pull request ([learn how to do this](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)).
 
-4. Make your changes and create a pull request ([learn how to do this](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)).
-
-5. I will attend to your pull request, provide some feedback, and eventually merge the PR!
+4. I will attend to your pull request, provide some feedback, request some changes or eventually merge the PR!
 
 ## ⚖️ License
 
 This repository is published under the [MIT](LICENSE) license.
+
+---
+
+<div align="center">
+
+&copy; [Bolaji Ayodeji](https://bolajiayodeji.com)
+
+</div>
