@@ -29,8 +29,8 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="relative flex place-items-center">
+    <main className="flex min-h-screen flex-col items-center justify-between lg:p-16">
+      <div className="p-12 mb-12 border border-black rounded-lg">
         {predictionData === null ? (
           <Form onSubmit={handleSubmit} />
         ) : (

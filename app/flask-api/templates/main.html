@@ -10,35 +10,102 @@
       type="image/png"
       href="https://bolajiayodeji.com/favicon.png"
     />
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="font-mono">
-    <div class="flex items-center justify-center h-screen">
-      <div
-        class="p-12 max-w-xl bg-gray-200 rounded-lg overflow-hidden shadow-lg"
+  <main class="flex min-h-screen flex-col items-center justify-between lg:p-24">
+    <div class="p-12 border border-black rounded-lg text-center">
+      <p class="mb-8">
+        Use the <b>/predict</b> API route to make a GET request and pass in the
+        data with a <b>?message=</b> parmeter like so:
+      </p>
+      <a
+        class="text-gray-700 text-center"
+        href="/predict?message=The last time you considered giving up on your dreams but didn't… what kept you going?"
+        >http://127.0.0.1:5000/predict?message=The last time you considered
+        giving up on your dreams but didn't… what kept you going?</a
       >
-        <div class="font-bold text-xl mb-2 text-center">
-          MBPTI Personality Test Checker API
-        </div>
-        <hr class="border-1 border-black mb-8" />
-
-          <div class="mt-12 text-center">
-            <p>
-            Use the /predict API route to make a GET request and pass in the data with a ?message=
-            parmeter like so:
-          </p>
-          <br /><br />
-          <a
-            class="text-gray-700 text-center"
-            href="http://127.0.0.1:5000/predict?message=The last time you considered giving up on your dreams but didn't… what kept you going?"
-            >http://127.0.0.1:5000/predict?message=The last time you considered
-            giving up on your dreams but didn't… what kept you going?</a
-          >
-        </div>
     </div>
-  </body>
+
+    <!--Footer section with links to the workshop resources-->
+    <div
+      class="border-t pt-12 mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left"
+    >
+      <a
+        href="https://github.com/BolajiAyodeji/deploy-ml-web-workshop/blob/main/lessons/01.md"
+        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h2 class="mb-3 text-2xl font-semibold">
+          workshop lessons
+          <span
+            class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"
+          >
+            →
+          </span>
+        </h2>
+        <p class="m-0 max-w-[30ch] text-sm opacity-50">
+          Explore all the lessons and resources in this workshop.
+        </p>
+      </a>
+
+      <a
+        href="https://github.com/BolajiAyodeji/deploy-ml-web-workshop/tree/main/model"
+        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h2 class="mb-3 text-2xl font-semibold">
+          models
+          <span
+            class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"
+          >
+            →
+          </span>
+        </h2>
+        <p class="m-0 max-w-[30ch] text-sm opacity-50">
+          Explore the Jupyter notebooks with the machine learning models.
+        </p>
+      </a>
+
+      <a
+        href="https://github.com/BolajiAyodeji/deploy-ml-web-workshop/tree/main/app/flask-app"
+        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h2 class="mb-3 text-2xl font-semibold">
+          flask-app
+          <span
+            class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"
+          >
+            →
+          </span>
+        </h2>
+        <p class="m-0 max-w-[30ch] text-sm opacity-50">
+          Explore the flask-app code in this workshop.
+        </p>
+      </a>
+
+      <a
+        href="https://github.com/BolajiAyodeji/deploy-ml-web-workshop/tree/main/app/nextjs-flask-app"
+        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h2 class="mb-3 text-2xl font-semibold">
+          nextjs-flask-app
+          <span
+            class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none"
+          >
+            →
+          </span>
+        </h2>
+        <p class="m-0 max-w-[30ch] text-sm opacity-50">
+          Explore the nextjs-flask-app code in this workshop.
+        </p>
+      </a>
+    </div>
+  </main>
 </html>

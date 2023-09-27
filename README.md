@@ -8,7 +8,6 @@ In this workshop, Bolaji will introduce you to machine learning model deployment
 
 ## Table of Contents
 
-- [👨🏾‍🏫 About Me](#-about-me)
 - [🎧 Overview](#-overview)
 - [🛠 Prerequisites and Installation Guide](#-prerequisites-and-installation-guide)
 - [📚 Workshop Lessons](#-workshop-lessons)
@@ -27,7 +26,12 @@ In this workshop, we will build the following:
 - A backend and API for the model using Python and Flask.
 - A web application that consumes the model/API using HTML, CSS, JavaScript, and Flask.
 - A web application and API that consumes the model/API using HTML, CSS, JavaScript, Nextjs, and Flask.
-- An AI web application using Nextjs and OpenAPI.
+
+Test the deployed aplicatins:
+
+- flask-api: <https://mbpti-flask-api.fly.dev>.
+- flask-app: <https://mbpti-flask-app.fly.dev>.
+- nextjs-flask-app: <https://mbpti-nextjs-flask-app.vercel.app>.
 
 ![](./assets/model-notebook.png)
 ![](./assets/postman-test.png)
@@ -35,10 +39,6 @@ In this workshop, we will build the following:
 ![](./assets/app-result.png)
 
 ---
-
-### 👨🏾‍🏫 About Me
-
-I'm a software engineer, technical writer, and technical content creator. I'm passionate about building developer communities, open-source, and sharing knowledge. I'm currently a Developer Advocate at [Vercel](https://vercel.com?utm_source=ba-deploy-ml-web-workshop) and a Google Developer Expert (GDE) in Web Technologies. I'm also a member of the [Next.js](https://nextjs.org?utm_source=ba-deploy-ml-web-workshop) and [Nuxt.js](https://nuxtjs.org?utm_source=ba-deploy-ml-web-workshop) communities.
 
 ## 🎧 Overview
 
@@ -166,12 +166,21 @@ We will install the following packages:
 - [Python Dotenv](https://pypi.org/project/python-dotenv?utm_source=ba-deploy-ml-web-workshop): a package that reads key-value pairs from a `.env` file and can set them as environment variables.
 - [Scikit-Learn](https://scikit-learn.org/stable?utm_source=ba-deploy-ml-web-workshop): a free software machine learning library for the Python programming language, including various classification, regression, and clustering algorithms.
 - [Flask](https://github.com/pallets/flask?utm_source=ba-deploy-ml-web-workshop): a lightweight Python micro framework for building web applications.
+- [Gunicorn](https://gunicorn.org?utm_source=ba-deploy-ml-web-workshop): a Python WSGI HTTP Server for UNIX.
 
-Install all of them using the command below:
+> [!IMPORTANT]
+>
+> Eventually, we will install the above mentioned libraries in a [virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment?utm_source=ba-deploy-ml-web-workshop) to ensure we use independent groups of Python libraries for each project. This is a recommended practice when building Python aplications in both development and production.
+
+In the project directory, create the environment with the command `python3 -m venv .venv` and activate the envirnment with the command `source .venv/bin/activate`.
+
+Now, install all of the packages using the command below:
 
 ```bash
-pip3 install python-dotenv scikit-learn flask
+pip3 install python-dotenv scikit-learn flask gunicorn
 ```
+
+<br />
 
 Once installed successfully, confirm the version using the command:
 
@@ -181,6 +190,8 @@ pip3 show python-dotenv
 pip3 show scikit-learn
 
 pip3 show flask
+
+pip3 show gunicorn
 ```
 
 </details>
@@ -227,6 +238,18 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 
 </details>
 
+<summary>Flyctl and Vercel</summary>
+<br />
+
+We will install the following packages:
+
+- [Flyctl](https://fly.io/docs/hands-on/install-flyctl?utm_source=ba-deploy-ml-web-workshop): the command-line utility that lets you work on Fly from your terminal locally.
+- [Vercel](https://vercel.com?utm_source=ba-deploy-ml-web-workshop): a frontend cloud platform for deploying web apps.
+
+Sign up for a free account on [Fly.io](https://fly.io/app/sign-up) and [Vercel](https://vercel.com/signup?utm_source=ba-deploy-ml-web-workshop) if you haven't yet. Next, read [this guide](https://fly.io/docs/hands-on/install-flyctl) to install `flyctl` for any operating system.
+
+</details>
+
 ## 📚 Workshop Lessons
 
 1. [Introduction to Machine Learning](./lessons/01.md)
@@ -235,7 +258,7 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 4. [Building a Web Application for the API](./lessons/04.md)
 5. [Overview of Alternative Frameworks](./lessons/05.md)
 6. [Building a Nextjs Web Application for the ML Model](./lessons/06.md)
-7. [Deploying the API and Web Application to the Cloud]()
+7. [Deploying the API and Web Application to the Cloud](./lessons/07.md)
 8. Bonus: Building Web AI Applications with Pre-trained Models (LLMs) and Vercel AI SDK (Coming soon!)
 
 ## 🚀 What's Next?
@@ -257,6 +280,7 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 - [Handling Flask Application Errors](https://flask.palletsprojects.com/en/2.3.x/errorhandling?utm_source=ba-deploy-ml-web-workshop)
 - [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes?utm_source=ba-deploy-ml-web-workshop)
 - [Nextjs Forms and Mutations](https://nextjs.org/docs/pages/building-your-application/data-fetching/forms-and-mutations?utm_source=ba-deploy-ml-web-workshop)
+- [Builders and Fly](https://fly.io/docs/reference/builders?utm_source=ba-deploy-ml-web-workshop)
 
 ## 👩🏽‍💻 Contributors Guide
 

@@ -14,11 +14,11 @@ def main():
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     # Use pickle to load in vectorizer.
-    with open(f'../../model/two/vectorizer.pkl', 'rb') as f:
+    with open(f'./model/vectorizer.pkl', 'rb') as f:
         vectorizer = pickle.load(f)
 
     # Use pickle to load in the pre-trained model.
-    with open(f'../../model/two/model.pkl', 'rb') as f:
+    with open(f'./model/model.pkl', 'rb') as f:
         model = pickle.load(f)
 
     if request.method == 'POST':

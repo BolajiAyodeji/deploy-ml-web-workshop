@@ -8,8 +8,8 @@ type PredictionData = {
 
 export default function Result(props: PredictionData) {
   return (
-    <div className="mb-12 p-12 lg:p-24 border border-gray-700">
-      <div>
+    <div>
+      <div className="mt-12">
         <p id="name" className="text-gray-700 font-bold">
           Fullname: <span className="font-medium">{props.name}</span>
         </p>
