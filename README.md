@@ -6,6 +6,14 @@ In this workshop, Bolaji will introduce you to machine learning model deployment
 
 ---
 
+<div align="center">
+
+![](./assets/qr.png)
+
+</div>
+
+---
+
 ## Table of Contents
 
 - [🎧 Overview](#-overview)
@@ -29,9 +37,9 @@ In this workshop, we will build the following:
 
 Test the deployed aplicatins:
 
-- flask-api: <https://mbpti-flask-api.fly.dev>.
-- flask-app: <https://mbpti-flask-app.fly.dev>.
-- nextjs-flask-app: <https://mbpti-nextjs-flask-app.vercel.app>.
+- `flask-api`: <https://mbpti-flask-api.fly.dev>.
+- `flask-app`: <https://mbpti-flask-app.fly.dev>.
+- `nextjs-flask-app`: <https://mbpti-nextjs-flask-app.vercel.app>.
 
 ![](./assets/model-notebook.png)
 ![](./assets/postman-test.png)
