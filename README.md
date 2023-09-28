@@ -246,6 +246,8 @@ Consider reading Reactjs's [installation guide](https://react.dev/learn/installa
 
 </details>
 
+<details>
+
 <summary>Flyctl and Vercel</summary>
 <br />
 
@@ -289,6 +291,7 @@ Sign up for a free account on [Fly.io](https://fly.io/app/sign-up) and [Vercel](
 - [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes?utm_source=ba-deploy-ml-web-workshop)
 - [Nextjs Forms and Mutations](https://nextjs.org/docs/pages/building-your-application/data-fetching/forms-and-mutations?utm_source=ba-deploy-ml-web-workshop)
 - [Using the Python Runtime with Serverless Functions](https://vercel.com/docs/functions/serverless-functions/runtimes/python?utm_source=ba-deploy-ml-web-workshop)
+- [Flask CORS Extension](https://flask-cors.readthedocs.io/en/latest/api.html?utm_source=ba-deploy-ml-web-workshop)
 - [Builders and Fly](https://fly.io/docs/reference/builders?utm_source=ba-deploy-ml-web-workshop)
 
 ## 👩🏽‍💻 Contributors Guide
