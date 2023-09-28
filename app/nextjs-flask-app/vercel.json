@@ -3,5 +3,6 @@
     "api/*.py": {
       "excludeFiles": "public/**"
     }
-  }
+  },
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }]
 }
