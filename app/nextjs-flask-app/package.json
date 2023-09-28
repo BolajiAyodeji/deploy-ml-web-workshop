@@ -27,8 +27,5 @@
   },
   "author": {
     "name": "Bolaji Ayodeji"
-  },
-  "devDependencies": {
-    "@flydotio/dockerfile": "^0.4.10"
   }
 }
