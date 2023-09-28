@@ -35,11 +35,10 @@ In this workshop, we will build the following:
 - A web application that consumes the model/API using HTML, CSS, JavaScript, and Flask.
 - A web application and API that consumes the model/API using HTML, CSS, JavaScript, Nextjs, and Flask.
 
-Test the deployed aplicatins:
+You can test the deployed applications here:
 
 - `flask-api`: <https://mbpti-flask-api.fly.dev>.
 - `flask-app`: <https://mbpti-flask-app.fly.dev>.
-- `nextjs-flask-app`: <https://mbpti-nextjs-flask-app.vercel.app>.
 
 ![](./assets/model-notebook.png)
 ![](./assets/postman-test.png)
@@ -273,6 +272,7 @@ Sign up for a free account on [Fly.io](https://fly.io/app/sign-up) and [Vercel](
 
 ## 🚀 What's Next?
 
+- Challenge: as discussed in [lesson seven](./lessons/07.md), update the `flask-api` app to support CORS, change how we get the request data, deploy to Fly again, and then use the live API directly in the Nextjs app.
 - Build something nice for fun to test all you've learned, open-source the code, and write about it if you want.
 - Here's a [list of different projects](https://github.com/BolajiAyodeji/deploy-ml-web-workshop/discussions/categories/projects) built by participants of this workshop. If you've built something nice, feel free to [create a new discussion](https://github.com/BolajiAyodeji/deploy-ml-web-workshop/discussions/new?category=projects) and talk about your project.
 - Tag me on X (Twitter) [@iambolajiayo](https://twitter.com/iambolajiayo) when you share your project.
