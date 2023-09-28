@@ -1,11 +1,9 @@
 from flask import Flask, request, render_template, jsonify
-from flask_cors import CORS
 import pickle
 
 # Create an instance of the Flask class
 # with the name of the application’s modules
 app = Flask(__name__, template_folder='templates')
-CORS(app)
 
 # Create the / API route and render the root HTML page
 @app.route('/', methods=['GET'])
