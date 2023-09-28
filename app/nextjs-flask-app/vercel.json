@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/**/*.py": {
+    "api/*.py": {
       "excludeFiles": "public/**"
     }
   }
