@@ -1,5 +1,5 @@
-from flask import Flask, request, render_template, jsonify
 import pickle
+from flask import Flask, request, render_template, jsonify
 
 # Create an instance of the Flask class
 # with the name of the application’s modules
