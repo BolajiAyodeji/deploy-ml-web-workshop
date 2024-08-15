@@ -30,10 +30,10 @@ This repository contains the workshop materials, lesson notes, machine learning 
 
 In this workshop, we will build the following:
 
-- A simple machine learning model that predicts the personality type of an individual using Python, Scikit-learn, and other libraries.
-- A backend and API for the model using Python and Flask.
-- A web application that consumes the model/API using HTML, CSS, JavaScript, and Flask.
-- A web application and API that consumes the model/API using HTML, CSS, JavaScript, Nextjs, and Flask.
+- A minimal machine learning model that predicts the personality type of an individual using Python, Scikit-learn, and other libraries ([`/model`](./model)).
+- A backend and API for the model using Python and Flask ([`/app/flask-api`](./app/flask-api)).
+- A web application that consumes the model/API using HTML, CSS, JavaScript, and Flask ([`/app/flask-app`](./app/flask-app)).
+- A web application and API that consumes the model/API using HTML, CSS, JavaScript, Nextjs, and Flask ([`/app/nextjs-flask-app`](./app/nextjs-flask-app)).
 
 You can test the deployed applications here:
 
@@ -268,7 +268,7 @@ Sign up for a free account on [Fly.io](https://fly.io/app/sign-up) and [Vercel](
 5. [Overview of Alternative Frameworks](./lessons/05.md)
 6. [Building a Nextjs Web Application for the ML Model](./lessons/06.md)
 7. [Deploying the API and Web Application to the Cloud](./lessons/07.md)
-8. Bonus: Building Web AI Applications with Pre-trained Models (LLMs) and Vercel AI SDK (Coming soon!)
+8. Bonus: Building Web AI Applications with Pre-trained Models (LLMs) and Vercel AI SDK (TBA)
 
 ## 🚀 What's Next?
 
