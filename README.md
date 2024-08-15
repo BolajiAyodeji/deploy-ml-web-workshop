@@ -306,16 +306,10 @@ git clone https://github.com/<your username>/deploy-ml-web-workshop.git && cd de
 
 3. Make your changes and create a pull request ([learn how to do this](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)).
 
-4. I will attend to your pull request, provide some feedback, request some changes or eventually merge the PR!
+4. I will attend to your pull request, provide some feedback, request some changes, or eventually merge the PR!
 
 ## ⚖️ License
 
-This repository is published under the [MIT](LICENSE) license.
+The content of this repository &copy; 2023 by [Bolaji Ayodeji](https://bolajiayodeji.com) is published under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0) license and the underlying code examples are licensed under the [MIT](LICENSE) license.
 
----
-
-<div align="center">
-
-&copy; [Bolaji Ayodeji](https://bolajiayodeji.com)
-
-</div>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
