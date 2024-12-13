@@ -12,4 +12,4 @@ python-dotenv==1.0.0
 scikit-learn==1.5.0
 scipy==1.11.2
 threadpoolctl==3.2.0
-Werkzeug==3.0.3
+Werkzeug==3.0.6
